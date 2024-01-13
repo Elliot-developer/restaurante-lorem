@@ -23,7 +23,7 @@ body{
    
     height: 35px;
     width: 100%;
-    background-color: #FFFFB2;
+    background-color: #BDD52A;
 }
 
 #msg p {
@@ -40,20 +40,28 @@ body{
     height: 90px;
     display: flex;
     justify-content: space-around;
-    background-color: #00FF00;
+    background-color: #014641;
 }
 
 .logo {
+    color: #bdd52a;
     
 }
 
+.logo h1 {
+    color: #BDD52A;
+    font-size: 50px;
+}
+
 #pesquisar {
-    line-height: 80px;
+    margin-left: 100px;
+    line-height: 85px;
 }
 
 #search{
+    width: 350px;
     padding: 10px;
-    border-radius: 50px;
+    border-radius: 7px;
 }
 
 
@@ -87,7 +95,7 @@ body{
     line-height: 80px;
     font-weight: bold;
     text-decoration: none;
-    color: #5e6a40;
+    color: #bdd52a;
 }
 
 /* NAVEGAÇÃO SECUNDARIA */
