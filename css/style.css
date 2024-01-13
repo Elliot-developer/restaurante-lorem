@@ -48,9 +48,10 @@ body{
     
 }
 
-.logo h1 {
-    color: #BDD52A;
-    font-size: 50px;
+.logo img {
+    margin-top: 5px;
+    width: 200px;
+    height: 80px;
 }
 
 #pesquisar {
