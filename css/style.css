@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    /* background-color: #5e6a40
+                      #bba445
+                      #b54427
+                      #e19e06
+                      #9fc8b6; */
+}
+
+#topo{
+
+}
+
+#msg {
+   
+    height: 35px;
+    width: 100%;
+    background-color: #FFFFB2;
+}
+
+#msg p {
+    padding-top: 4px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #553f0f;
+    font-weight: bold;
+
+}
+
+#info {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #00FF00;
+}
+
+.logo {
+    
+}
+
+#pesquisar {
+    line-height: 80px;
+}
+
+#search{
+    padding: 10px;
+    border-radius: 50px;
+}
+
+
+
+#search-btn {
+    font-size: 10px;
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+}
+
+
+/* NAVEGAÇÃO PRINCIPAL  */
+
+.navprincipal {
+    text-transform: uppercase;
+}
+
+.navprincipal ul {
+
+}
+
+.navprincipal ul li{
+    padding-left: 50px;
+    display: inline;
+    list-style: none;
+}
+
+.navprincipal ul li a{
+    font-size: 15px;
+    line-height: 80px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #5e6a40;
+}
+
+/* NAVEGAÇÃO SECUNDARIA */
+
+.navsecundaria {
+
+}
