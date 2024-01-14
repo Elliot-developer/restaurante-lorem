@@ -10,27 +10,31 @@ div#painel{
 }
 
 div#promo1 img{
-    height: 200px;
+    /* height: 200px; */
     position: absolute;
 }
 
 img#salmao{
-    margin-top: 180px;
-    margin-left: 50px; 
-    height: 70% !important;  
+    bottom: -20%;
+    margin-left: 250px; 
+    width: 200px !important;  
 }
 img#saladaPreta{
-    margin-left: -60px;
+    margin-left: 70px;
+    margin-top: 2%;
     height: 50% !important;
     rotate: 20deg;
+
 }
 img#saladaTigela{
     rotate: -30deg;
-    margin-left: 180px;
-    margin-top: 2%;
+    margin-left: 300px;
+    margin-top: -2%;
     height: 70% !important;
 }
 img#mulher{
-    margin-left: 77%;
-    margin-top: 100px;
+    margin-left: 2%;
+    margin-top: 120px;
+    transform: scaleX(-1);
+    width: 170px;
 }
