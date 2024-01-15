@@ -18,7 +18,7 @@ body{
    
     height: 35px;
     width: 100%;
-    background-color: #FFFFB2;
+    background-color: #BDD52A;
 }
 
 #msg p {
@@ -35,25 +35,37 @@ body{
     height: 90px;
     display: flex;
     justify-content: space-around;
-    background-color: #00FF00;
+    background-color: #014641;
 }
 
 .logo {
+    color: #bdd52a;
     
 }
 
+.logo img {
+    margin-top: 5px;
+    width: 200px;
+    height: 80px;
+}
+
 #pesquisar {
-    line-height: 80px;
+    margin-left: 100px;
+    line-height: 85px;
 }
 
 #search{
+    box-shadow: 5px black;
+    border: none;
+    width: 350px;
     padding: 10px;
-    border-radius: 50px;
+    border-radius: 7px;
 }
 
 
 
 #search-btn {
+    background-color: white;
     font-size: 10px;
     border-radius: 100px;
     width: 50px;
@@ -82,7 +94,7 @@ body{
     line-height: 80px;
     font-weight: bold;
     text-decoration: none;
-    color: #5e6a40;
+    color: #bdd52a;
 }
 
 /* NAVEGAÇÃO SECUNDARIA */
