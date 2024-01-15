@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -8,11 +9,6 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: white;
-    /* background-color: #5e6a40
-                      #bba445
-                      #b54427
-                      #e19e06
-                      #9fc8b6; */
 }
 
 #topo{
@@ -37,21 +33,22 @@ body{
 
 #info {
     width: 100%;
-    height: 90px;
+    height: 120px;
     display: flex;
     justify-content: space-around;
     background-color: #014641;
 }
 
-.logo {
-    color: #bdd52a;
+#logo {
+    
+    margin-top: 15px;    
+    margin-left: 100px;
     
 }
 
-.logo img {
-    margin-top: 5px;
-    width: 200px;
-    height: 80px;
+#logoInicio img{
+    
+    
 }
 
 #pesquisar {
@@ -81,7 +78,7 @@ body{
 /* NAVEGAÇÃO PRINCIPAL  */
 
 .navprincipal {
-    text-transform: uppercase;
+
 }
 
 .navprincipal ul {
@@ -105,5 +102,49 @@ body{
 /* NAVEGAÇÃO SECUNDARIA */
 
 .navsecundaria {
+    height: 50px;
+    width: 100%;
+    background-color: white;
 
+}
+
+.navsecundaria ul {
+    margin-left: 230px;
+}
+
+.navsecundaria ul li {
+    display: inline;
+
+}
+
+.navsecundaria ul li a {
+    padding-right: 100px;
+    line-height: 50px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #014641;
+    font-size: 17px;
+}
+
+.navsecundaria i {
+    font-size: large;
+    color: #014641;
+}
+
+
+.navsecundaria .destali {
+    display: inline-block;
+    width: 130px;
+    height: 47px;
+    text-align: center;
+
+    border-radius: 5px;
+
+    color: #BDD52A;
+    background-color: #014641;
+}
+
+.destali a {
+    
+    color: #BDD52A;
 }
