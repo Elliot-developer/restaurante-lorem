@@ -1,0 +1,80 @@
+img#logoInicio{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 220px;
+    height: 70px
+}
+
+div#painel{
+    display: grid;
+    /* place-items: center; */
+
+    /* background-image: url(/imgs/textureBg2.jpg); */
+    background-image: linear-gradient(#01462c, #77d52a);
+    
+    background-repeat: repeat;
+
+    border-top: 6px solid rgb(21, 88, 100); 
+    border-bottom: 6px solid rgb(21, 88, 100);
+    position: relative;
+}
+div#painel img#arrow{
+    position: absolute;
+    width: 300px;
+    right: 10%;
+    top: 10px;
+}
+
+div#promo1{
+    margin-left: 5%;
+    width: 946px;
+    height: 312px;
+}
+
+div#promo1 p#title1{
+    position: relative;
+    text-align: right;
+    font-size: 25pt;
+    font-weight: bold;
+    top: 50px;
+    right: 10px;
+    color: white;
+}
+div#promo1 p#subtitle1{
+    position: relative;
+    text-align: right;
+    font-size: 18pt;
+    font-weight: 280;
+    top: 60px;
+    right: 15px;
+}
+div#promo1 img{
+    position: absolute;
+}
+
+img#salmao{
+    bottom: -15%;
+    margin-left: 300px; 
+    width: 150px !important;  
+}
+img#saladaPreta{
+    margin-left: 180px;
+    top: 14%;
+    width: 230px;
+    rotate: 20deg;
+
+}
+img#saladaTigela{
+    rotate: -30deg;
+    margin-left: 370px;
+    bottom: 30%;
+    height: 45%;
+}
+img#mulher{
+    margin-left: 2%;
+    /* margin-top: 36px; */
+    margin-top: 47.5px;
+    transform: scaleX(-1);
+    width: 250px;
+}
+
