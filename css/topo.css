@@ -12,7 +12,7 @@ body{
 }
 
 #topo{
-
+    
 }
 
 #msg {
@@ -41,13 +41,14 @@ body{
 
 #logo {
     
-    margin-top: 15px;    
+    margin-top: 10px;    
     margin-left: 100px;
     
 }
 
-#logoInicio img{
-    
+#logo img{
+    width: 250px;
+    height: 80px;
     
 }
 
@@ -105,7 +106,7 @@ body{
     height: 50px;
     width: 100%;
     background-color: white;
-
+    
 }
 
 .navsecundaria ul {
