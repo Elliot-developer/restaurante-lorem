@@ -1,8 +1,6 @@
 img#logoInicio{
     margin-top: 10px;
     margin-left: 10px;
-    width: 220px;
-    height: 70px
 }
 
 div#painel{
@@ -10,12 +8,11 @@ div#painel{
     /* place-items: center; */
 
     /* background-image: url(/imgs/textureBg2.jpg); */
-    background-image: linear-gradient(#01462c, #77d52a);
-    
-    background-repeat: repeat;
-
-    border-top: 6px solid rgb(21, 88, 100); 
-    border-bottom: 6px solid rgb(21, 88, 100);
+    /* background-image: linear-gradient(#01462c, #77d52a);
+     */
+    background-image: url(../imgs/painel/pexels-elias-tigiser-2757549.jpg);
+    background-position:top;
+    background-repeat: no-repeat;
     position: relative;
 }
 div#painel img#arrow{
@@ -23,6 +20,7 @@ div#painel img#arrow{
     width: 300px;
     right: 10%;
     top: 10px;
+    filter: drop-shadow(0px, 0px, 75px, black);
 }
 
 div#promo1{
@@ -78,3 +76,187 @@ img#mulher{
     width: 250px;
 }
 
+
+/* FAIXA DE INFO */
+#faixa {
+    background-color: #0b4b46;
+    height: 80px;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+#faixa .bloco-fx {
+    margin-top: 10px;
+}
+
+#faixa .img-fx {
+    display: inline-block;
+}
+
+#faixa .faixa-cfg {
+    line-height: 20px;
+    margin-left: 58px;
+    margin-top: -50px;
+    
+
+    
+    
+}
+
+
+
+
+#faixa h4 {
+    
+    color: #bdd52a;
+    font-size: 17px;
+}
+
+#faixa p {
+   margin-top: -3px;
+    font-size: 15px;
+    color: snow;
+    font-weight: 300;
+    
+}
+
+#faixa img {
+
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+.txt-categorias {
+    color: black;
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+/* CATEGORIAS */
+
+#categorias{
+    display: grid;
+    place-items: center;
+
+   
+}
+
+ul#cat1 {
+    list-style: none;;
+    place-items: center;
+    background-color: #014641;
+}
+
+ul#cat1 div{
+    display: inline-block;
+}
+
+ul#cat1 li{
+    margin-top: -100px;
+
+    display: grid;
+    place-items: center; 
+    margin: 70px;
+    width: 185px;
+    height: 185px;
+    
+    font-weight: bolder;
+    border-radius: 150px;
+    box-shadow: 0px 0px 40px #aaaaaa;
+
+}
+
+ul#cat1 li:hover{
+    transform: scale(1.1);
+    transition: all 0.8s;
+}
+
+ul#cat1 li.verde{
+    color: rgb(255, 255, 255);
+    border: 5px solid rgb(45, 45, 45);
+    background-color: #54735b;
+    /* #5d7660
+    #c9f6cf 
+    #01462c, #77d52a*/
+    
+}
+ul#cat1 li.branco{
+    color: rgb(0, 0, 0);
+    border: 5px solid #bdd52a;
+    /* background-color: #c8caba; */
+}
+
+ul#cat1 li p{
+    color: #014641;
+    margin-top: -80px;
+} 
+
+div ul#cat1 li img{
+
+    padding: 30px;
+    width: 55px;
+    align-items: center;
+    position: relative;
+    top:5px;
+}
+
+
+/* MELHORES OFERTAS */
+
+#melhores-ofertas{
+
+}
+
+#titulo h1 {
+    margin-bottom: 50px;
+    color: black;
+    text-align: center;
+}
+
+#ofertas {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#ofertas img {
+    border: 1px solid blue;
+
+    align-items: center;
+    width: 290px;
+    height: 300px;
+}
+
+.oferta1 {
+    height: 500px;
+    border: 1px solid red;
+}
+
+.oferta1 p {
+    text-align: center;
+}
+
+.oferta1 h4 {
+    color: #bdd52a;
+    text-align: center;
+}
+
+/* DESTAQUES */
+#destaques h1 {
+    text-align: center;
+}
+
+/* DEPOIMENTOS */
+#depoimentos h1 {
+    text-align: center;
+}
