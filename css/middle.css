@@ -154,6 +154,8 @@ img#mulher{
 
 ul#cat1 {
     list-style: none;;
+    place-items: center;
+    background-color: #014641;
 }
 
 ul#cat1 div{
@@ -207,4 +209,54 @@ div ul#cat1 li img{
     align-items: center;
     position: relative;
     top:5px;
+}
+
+
+/* MELHORES OFERTAS */
+
+#melhores-ofertas{
+
+}
+
+#titulo h1 {
+    margin-bottom: 50px;
+    color: black;
+    text-align: center;
+}
+
+#ofertas {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#ofertas img {
+    border: 1px solid blue;
+
+    align-items: center;
+    width: 290px;
+    height: 300px;
+}
+
+.oferta1 {
+    height: 500px;
+    border: 1px solid red;
+}
+
+.oferta1 p {
+    text-align: center;
+}
+
+.oferta1 h4 {
+    color: #bdd52a;
+    text-align: center;
+}
+
+/* DESTAQUES */
+#destaques h1 {
+    text-align: center;
+}
+
+/* DEPOIMENTOS */
+#depoimentos h1 {
+    text-align: center;
 }

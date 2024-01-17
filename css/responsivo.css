@@ -1,0 +1,19 @@
+@media only screen and (max-width: 600px) {
+    .navprincipal {
+      display: none;
+    }
+
+    .navsecundaria {
+        display: none;
+      }
+
+    #pesquisar {
+        display: none;
+    }
+
+    #logo {
+        align-items: center;
+    }
+
+    
+  }

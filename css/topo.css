@@ -15,6 +15,11 @@ body{
     
 }
 
+#topo2 {
+    display: flex;
+    justify-content: space-between;
+}
+
 #msg {
    
     height: 35px;
@@ -53,14 +58,18 @@ body{
 }
 
 #pesquisar {
+    display: flex;
     margin-left: 100px;
     line-height: 85px;
 }
 
 #search{
+    margin-top: 30px;
+
     box-shadow: 5px black;
     border: none;
     width: 350px;
+    height: 50px;
     padding: 10px;
     border-radius: 7px;
 }
@@ -68,11 +77,12 @@ body{
 
 
 #search-btn {
+    height: 30px;
+
     background-color: white;
     font-size: 10px;
     border-radius: 100px;
     width: 50px;
-    height: 50px;
 }
 
 
@@ -83,12 +93,13 @@ body{
 }
 
 .navprincipal ul {
-
+    display: flex;
+    justify-content: space-around;
 }
 
 .navprincipal ul li{
     padding-left: 50px;
-    display: inline;
+   
     list-style: none;
 }
 
@@ -105,39 +116,38 @@ body{
 .navsecundaria {
     height: 50px;
     width: 100%;
-    background-color: white;
+    
     
 }
 
 .navsecundaria ul {
-    margin-left: 230px;
+
+   
+
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .navsecundaria ul li {
-    display: inline;
+    margin-top: 12px;
+    list-style: none;
 
 }
 
 .navsecundaria ul li a {
-    padding-right: 100px;
-    line-height: 50px;
-    font-weight: 500;
+    font-weight: 400;
+
     text-decoration: none;
     color: #014641;
     font-size: 17px;
 }
 
-.navsecundaria i {
-    font-size: large;
-    color: #014641;
-}
 
 
 .navsecundaria .destali {
-    display: inline-block;
+
     width: 130px;
     height: 47px;
-    text-align: center;
 
     border-radius: 5px;
 
@@ -149,3 +159,5 @@ body{
     
     color: #BDD52A;
 }
+
+
