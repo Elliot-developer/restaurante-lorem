@@ -1,16 +1,15 @@
-
 let imgAtual = 0;
 
 const updatePainel = () => {
-    let fileNames = ["/imgs/PainelPrincipal.jpg", "/imgs/FreteGratis.png", "/imgs/descontos50.png", "/imgs/loremBanner.png", "/imgs/ofertaEspecial.png"];
+    let fileNames = ["/imgs/painel/PainelPrincipal.jpg", "/imgs/painel/FreteGratis.png", "/imgs/painel/descontos50.png", "/imgs/painel/loremBanner.png", "/imgs/painel/ofertaEspecial.png"];
     const imagemPainel1 = document.getElementById('imagemPainel1');
-    const imagemPainel2 = document.getElementById('imagemPainel2');
     imgAtual += 1;
     if(imgAtual>=fileNames.length) imgAtual = 0;
     imagemPainel1.src = fileNames[imgAtual];
-    imagemPainel2.src = fileNames[[0, imgAtual+1][Number(imgAtual+1<fileNames.length)]];
 
-    console.log('cuzin');
+    // Teste
+    // const imagemPainel2 = document.getElementById('imagemPainel2');
+    // imagemPainel2.src = fileNames[[0, imgAtual+1][Number(imgAtual+1<fileNames.length)]];
 }
 
 setInterval(updatePainel, 3000);
