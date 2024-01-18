@@ -3,79 +3,28 @@ img#logoInicio{
     margin-left: 10px;
 }
 
-div#painel{
-    display: grid;
-    /* place-items: center; */
+div#meio{
+    width: 100%;
+}
 
-    /* background-image: url(/imgs/textureBg2.jpg); */
-    /* background-image: linear-gradient(#01462c, #77d52a);
-     */
-    background-image: url(../imgs/painel/pexels-elias-tigiser-2757549.jpg);
-    background-position:top;
-    background-repeat: no-repeat;
+div#painel{
+    width: 100%;
+    height: 395px;
     position: relative;
 }
-div#painel img#arrow{
+
+/* div#painel img#arrow{
     position: absolute;
     width: 300px;
     right: 10%;
     top: 10px;
     filter: drop-shadow(0px, 0px, 75px, black);
-}
-
-div#promo1{
-    margin-left: 5%;
-    width: 946px;
-    height: 312px;
-}
-
-div#promo1 p#title1{
+} */
+div#painel img#imagemPainel1{
     position: relative;
-    text-align: right;
-    font-size: 25pt;
-    font-weight: bold;
-    top: 50px;
-    right: 10px;
-    color: white;
-}
-div#promo1 p#subtitle1{
-    position: relative;
-    text-align: right;
-    font-size: 18pt;
-    font-weight: 280;
-    top: 60px;
-    right: 15px;
-}
-div#promo1 img{
-    position: absolute;
-}
-
-img#salmao{
-    bottom: -15%;
-    margin-left: 300px; 
-    width: 150px !important;  
-}
-img#saladaPreta{
-    margin-left: 180px;
-    top: 14%;
-    width: 230px;
-    rotate: 20deg;
+    width: 100%;
 
 }
-img#saladaTigela{
-    rotate: -30deg;
-    margin-left: 370px;
-    bottom: 30%;
-    height: 45%;
-}
-img#mulher{
-    margin-left: 2%;
-    /* margin-top: 36px; */
-    margin-top: 47.5px;
-    transform: scaleX(-1);
-    width: 250px;
-}
-
 
 /* FAIXA DE INFO */
 #faixa {
@@ -101,14 +50,8 @@ img#mulher{
     line-height: 20px;
     margin-left: 58px;
     margin-top: -50px;
-    
 
-    
-    
 }
-
-
-
 
 #faixa h4 {
     
@@ -148,23 +91,22 @@ img#mulher{
 #categorias{
     display: grid;
     place-items: center;
-
-   
 }
 
 ul#cat1 {
-    list-style: none;;
+    list-style: none;
     place-items: center;
-    background-color: #014641;
+    /* background-color: #014641; */
+    text-align: center;
 }
 
 ul#cat1 div{
-    display: inline-block;
+    display: inline-flex;
 }
 
 ul#cat1 li{
     margin-top: -100px;
-
+    
     display: grid;
     place-items: center; 
     margin: 70px;
@@ -178,8 +120,8 @@ ul#cat1 li{
 }
 
 ul#cat1 li:hover{
-    transform: scale(1.1);
-    transition: all 0.8s;
+    transform: scale(1.05);
+    transition: all 0.4s;
 }
 
 ul#cat1 li.verde{
@@ -198,7 +140,7 @@ ul#cat1 li.branco{
 }
 
 ul#cat1 li p{
-    color: #014641;
+    color: rgb(45, 45, 45);
     margin-top: -80px;
 } 
 
