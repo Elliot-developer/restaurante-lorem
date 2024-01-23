@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="../css/topo.css">
     <link rel="stylesheet" href="../css/middle.css">
     <link rel="stylesheet" href="../css/responsivo.css">
+    <link rel="stylesheet" href="../css/discord.css">
+
+    <script src="/js/script.js" defer></script>
 
     <!-- <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-straight/css/uicons-regular-straight.css'>
     <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.1.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
@@ -19,6 +22,11 @@
 
 </head>
 <body>
+
+    <div id="discord">
+        <a href=""><img src="../imgs/discord/discord.256x256.png"></a>
+    </div>
+
     <div id="topo">
         <div id="msg">
             <p>PAGAMENTO A VISTA RECEBE DESCONTO DE 5% OFF</p>
@@ -62,18 +70,13 @@
         </div>
     </div>
 
+    <!-- <img id='imagemPainel2' src="/imgs/FreteGratis.png"> -->
+    
     <div id="meio">
         <div id="painel">
+            <img id='imagemPainel1' src="/imgs/painel/PainelPrincipal.jpg">
             <!-- <img src="" style="width: 100%; position: absolute; height: 300px;" id="backgroundPainel"> -->
-            <div id="promo1">
-                <img src="/imgs/salmao.png" id="salmao" class="food">
-                <img src="/imgs/saladaPreta.png" id="saladaPreta" class="food">
-                <img src="/imgs/saladaTigela.png" id="saladaTigela" class="food">
-                <img src="/imgs/mulher.png" id="mulher">
-                <p id="title1">As melhores opções.<br>As mais deliciosas.</p>
-                <p id="subtitle1">Sua refeição mais saudável <br>e inesquecível está aqui.</p>
-            </div>
-            <img src="/imgs/setaVerde.png" id="arrow"> 
+            <!-- <img src="/imgs/setaVerde.png" id="arrow">  -->
         </div>
 
         <div id="faixa">
@@ -124,12 +127,12 @@
         </div>
         <div id="categorias">
             <ul id="cat1">
-                <div><li class="verde"><img src="/imgs/bife.png">
+                <div><li class="verde"><img src="/imgs/categorias/bife.png">
                 <p>Proteínas</p></li></div>
-                <div><li class="branco"><img src="/imgs/carboidratos.png"><p>Carboidratos</p></li></div>
-                <div><li class="verde"><img src="/imgs/nachos.png"><p>Salgados</p></li></div>
-                <div><li class="branco"><img src="/imgs/brigadeiro.png"><p>Doces</p></li></div>
-                <div><li class="verde"><img src="/imgs/suplemento-de-proteina.png"><p>Suplementos</p></li></div>
+                <div><li class="branco"><img src="/imgs/categorias/carboidratos.png"><p>Carboidratos</p></li></div>
+                <div><li class="verde"><img src="/imgs/categorias/nachos.png"><p>Salgados</p></li></div>
+                <div><li class="branco"><img src="/imgs/categorias/brigadeiro.png"><p>Doces</p></li></div>
+                <div><li class="verde"><img src="/imgs/categorias/suplemento-de-proteina.png"><p>Suplementos</p></li></div>
             </ul>
         </div>
 
@@ -141,44 +144,137 @@
 
                 <div id="ofertas">
                     <div class="oferta1">
-                        <img src="../imgs/nachos.png">
+                        <img src="../imgs/ofertas/1.png">
                         <p>Nachos fitness</p>
                         <h4>R$25,99</h4>
                     </div>
 
                     <div class="oferta1">
-                        <img src="../imgs/nachos.png">
+                        <img src="../imgs/ofertas/2.png">
                         <p>Nachos fitness</p>
                         <h4>R$25,99</h4>
                     </div>
 
                     <div class="oferta1">
-                        <img src="../imgs/nachos.png">
+                        <img src="../imgs/ofertas/3.png">
                         <p>Nachos fitness</p>
                         <h4>R$25,99</h4>
                     </div>
 
                     <div class="oferta1">
-                        <img src="../imgs/nachos.png">
+                        <img src="../imgs/ofertas/4.png">
                         <p>Nachos fitness</p>
                         <h4>R$25,99</h4>
                     </div>
                 </div>
             </div>
-            
+        </div>
+
+        <div id="c-meio">
+            <div>
+                <img src="../imgs/ofertas/6.png">
+            </div>
+
+            <div>
+                <img src="../imgs/ofertas/7.png">
+            </div>
         </div>
 
         <div id="destaques">
             <h1>Destaques</h1>
+            <div id="ofertas">
+                <div class="oferta1">
+                    <img src="../imgs/categorias/nachos.png">
+                    <p>Nachos fitness</p>
+                    <h4>R$25,99</h4>
+                </div>
+
+                <div class="oferta1">
+                    <img src="../imgs/categorias/nachos.png">
+                    <p>Nachos fitness</p>
+                    <h4>R$25,99</h4>
+                </div>
+
+                <div class="oferta1">
+                    <img src="../imgs/categorias/nachos.png">
+                    <p>Nachos fitness</p>
+                    <h4>R$25,99</h4>
+                </div>
+
+                <div class="oferta1">
+                    <img src="../imgs/categorias/nachos.png">
+                    <p>Nachos fitness</p>
+                    <h4>R$25,99</h4>
+                </div>
+            </div>
         </div>
 
         <div id="depoimentos">
             <h1>Depoimentos</h1>
+            <div id="comment">
+                <div id="informacaoPessoa">
+                    <p id="pessoa">Elisa Graf</p>
+                    <div id="avaliacao">
+                        <img src="">5
+                    </div>
+                </div>
+                <div id="recomendacao">
+                    <p id="recText">Fiz meu primeiro pedido no Lorem e já virei fã. Bom atendimento, entrega super pontual e comida deliciosa.</p>
+                </div>
+            </div>
         </div>
 
-        <div id="final">
+        <div id="newsletter">
+            <div id="titulo">
+                <h1>Cadastre-se em nosso newsletter</h1>
+                <h3>e receba novidades e promoções</h3>
+            </div>
 
+            <div id="inputs">
+                <input type="text" name="" id="" placeholder="Seu nome">
+                <input type="text" name="" id="" placeholder="Seu gmail">
+                <input type="submit" value="Cadastra-se" class="cadastro">
+            </div>
+            
+            
         </div>
+
+        <footer>
+            <div  id="final">
+                <div>
+                    <img src="../imgs/logoVerde.png">
+                    <div style="width: 300px;">
+                        <p>Somos uma empresa Pernambucana, desde 2023 no ramo de alimentação saudável em
+                            Macorranadas! Ao longo desses 1 mês anos de atividade, desenvolvemos uma linha de produtos ULTRA congelados completa para tornar o seu dia a dia muito mais prático e saboroso.</p>
+                    </div>
+                    
+                </div>
+    
+                <div>
+                    <h3>Institucional</h3>
+                    <p>O lorem restaurante</p>
+                    <p>Sobre nós</p>
+                    <p>Desenvolvedores</p>
+                    <p>Fale conosco</p>
+                </div>
+    
+                <div>
+                    <h3>Contato Devs</h3>
+                    <div>
+                        <p>Elliot</p>
+                        <p>discord</p>
+                    </div>
+
+                    <div>
+                        <p>Binichim </p>
+                        <p>discord</p>
+                    </div>
+                    
+                </div>
+    
+            </div>
+            
+        </footer>
     </div>
     
 </body>

@@ -3,79 +3,33 @@ img#logoInicio{
     margin-left: 10px;
 }
 
-div#painel{
-    display: grid;
-    /* place-items: center; */
+div#meio{
+    width: 100%;
+}
 
-    /* background-image: url(/imgs/textureBg2.jpg); */
-    /* background-image: linear-gradient(#01462c, #77d52a);
-     */
-    background-image: url(../imgs/painel/pexels-elias-tigiser-2757549.jpg);
-    background-position:top;
-    background-repeat: no-repeat;
+div#painel{
+    width: 100%;
+    height: 395px;
     position: relative;
 }
-div#painel img#arrow{
+
+#painel img {
+    position: relative;
+    z-index: -1;
+}
+
+/* div#painel img#arrow{
     position: absolute;
     width: 300px;
     right: 10%;
     top: 10px;
     filter: drop-shadow(0px, 0px, 75px, black);
-}
-
-div#promo1{
-    margin-left: 5%;
-    width: 946px;
-    height: 312px;
-}
-
-div#promo1 p#title1{
+} */
+div#painel img#imagemPainel1{
     position: relative;
-    text-align: right;
-    font-size: 25pt;
-    font-weight: bold;
-    top: 50px;
-    right: 10px;
-    color: white;
-}
-div#promo1 p#subtitle1{
-    position: relative;
-    text-align: right;
-    font-size: 18pt;
-    font-weight: 280;
-    top: 60px;
-    right: 15px;
-}
-div#promo1 img{
-    position: absolute;
-}
-
-img#salmao{
-    bottom: -15%;
-    margin-left: 300px; 
-    width: 150px !important;  
-}
-img#saladaPreta{
-    margin-left: 180px;
-    top: 14%;
-    width: 230px;
-    rotate: 20deg;
+    width: 100%;
 
 }
-img#saladaTigela{
-    rotate: -30deg;
-    margin-left: 370px;
-    bottom: 30%;
-    height: 45%;
-}
-img#mulher{
-    margin-left: 2%;
-    /* margin-top: 36px; */
-    margin-top: 47.5px;
-    transform: scaleX(-1);
-    width: 250px;
-}
-
 
 /* FAIXA DE INFO */
 #faixa {
@@ -101,14 +55,8 @@ img#mulher{
     line-height: 20px;
     margin-left: 58px;
     margin-top: -50px;
-    
 
-    
-    
 }
-
-
-
 
 #faixa h4 {
     
@@ -148,8 +96,6 @@ img#mulher{
 #categorias{
     display: grid;
     place-items: center;
-
-   
 }
 
 ul#cat1 {
@@ -157,12 +103,12 @@ ul#cat1 {
 }
 
 ul#cat1 div{
-    display: inline-block;
+    display: inline-flex;
 }
 
 ul#cat1 li{
     margin-top: -100px;
-
+    
     display: grid;
     place-items: center; 
     margin: 70px;
@@ -176,8 +122,8 @@ ul#cat1 li{
 }
 
 ul#cat1 li:hover{
-    transform: scale(1.1);
-    transition: all 0.8s;
+    transform: scale(1.05);
+    transition: all 0.4s;
 }
 
 ul#cat1 li.verde{
@@ -196,7 +142,7 @@ ul#cat1 li.branco{
 }
 
 ul#cat1 li p{
-    color: #014641;
+    color: rgb(45, 45, 45);
     margin-top: -80px;
 } 
 
@@ -213,10 +159,11 @@ div ul#cat1 li img{
 /* MELHORES OFERTAS */
 
 #melhores-ofertas{
-
+    
 }
 
 #titulo h1 {
+    
     margin-bottom: 50px;
     color: black;
     text-align: center;
@@ -249,12 +196,164 @@ div ul#cat1 li img{
     text-align: center;
 }
 
+
+/* IMAGENS DO MEIO */
+
+#c-meio {
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#c-meio img {
+    border-radius: 50px;
+    width: 600px;
+    height: 350px;
+}
+
+#c-meio img:hover {
+    transform: scale(1.03);
+    transition: all 0.5s;
+}
+
 /* DESTAQUES */
+
+#destaques {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
 #destaques h1 {
+    margin-bottom: 50px;
     text-align: center;
 }
 
 /* DEPOIMENTOS */
+
+#depoimentos {
+    display: grid;
+    place-items: center;
+}
+
+#depoimentos div#comment{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 500px;
+    height: 400px;
+    /* border: 2px solid black; */
+    display: grid;
+    place-items: center;
+    /* justify-content: center; */
+}
+
 #depoimentos h1 {
     text-align: center;
+}
+
+#depoimentos div#comment div#informacaoPessoa{
+    border-radius: 20px;
+    background-color: #54735b;
+    padding: 30px;
+    width: 100%;
+}
+
+#depoimentos div#avaliacao{
+    color: white;
+    position: absolute;
+    right: 10px;
+}
+
+#depoimentos div#comment p#pessoa{
+    font-size: 25pt;
+    text-align: center;
+    font-weight: bolder; 
+    color: white;
+    text-shadow: black;
+    border-radius: 20px;
+}
+
+#depoimentos div#comment div#recomendacao{
+    background-color: rgb(228, 228, 228);
+    box-shadow: 0px 0px 4px rgb(155, 155, 155);
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 20px;
+    font-size: 20pt;
+    width: 90%;
+    border-radius: 10px;
+}
+
+div#recomendacao p{
+    vertical-align: bottom;
+}
+
+
+
+
+
+#newsletter {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100px;
+    background-color: #0b4b46;
+
+}
+
+#newsletter #titulo {
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+#newsletter #titulo h1 {
+    color: white;
+    font-size: 27px;
+}
+
+#newsletter #titulo h3 {
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: -60px;
+}
+
+#newsletter #inputs {
+    
+}
+
+#newsletter #inputs input {
+
+    margin-top: 15px;
+    border: none;
+    margin-right: 10px;
+    padding-left: 20px;
+    padding-right: 30px;
+    border-radius: 10px;
+    width: 150px;
+    height: 60px;
+}
+
+.cadastro {
+    
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    background-color: #bdd52a;
+}
+
+#final {
+    background: none;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#final img {
+    
+    margin-bottom: 20px;
+    width: 200px;
+    height: 80px;
 }
